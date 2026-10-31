@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="K10VCdexkUrPr81GJrywSO" LanguageVersion="2026.8.0-0278-g8b85ba4511" Version="0.128">
-  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="P95eQgaX43tP7kIdu48Zk7" LanguageVersion="2025.7.4" Version="0.128">
+  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" Version="2025.7.4" />
   <Patch Id="KnTMpqqO0NkQKt1t7D1Xdz">
     <Canvas Id="GuU6CuCTviGMeN2GpWm5xa" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -28,7 +28,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="1528, 12, 751, 471" IsHidden="true" />
+            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="1155.3334, 52.666668, 750.6667, 470.66666" IsHidden="true" />
             <Pin Id="O48Q68C6YjgNbc0oYLGDWW" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="FeLXm9CAzYnLJmznql8nCt" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="OtSoNGwARSrMy034NqILBB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -122,7 +122,6 @@
             <Pin Id="GSBGMFxkrqkPqoCLeK0Qsx" Name="Enabled" Kind="InputPin" DefaultValue="True" />
             <Pin Id="B1pBI0rAuUENzxhYnD9rXq" Name="Skeleton" Kind="OutputPin" />
             <Pin Id="CKP0zuE2ITAMglyWveANfb" Name="Joint Names" Kind="OutputPin" />
-            <Pin Id="Q98djIGOhv0PnqY8ZKuCqF" Name="Joint Transforms" Kind="OutputPin" />
             <Pin Id="HrJOxyHW18rNBQ3yhWItvO" Name="Is Listening" Kind="OutputPin" />
           </Node>
           <Pad Id="SiWZIpQkDxZOosB1fO9yxS" Comment="Merge Meshes" Bounds="749,200,35,35" ShowValueBox="true" isIOBox="true" Value="False">
@@ -619,7 +618,7 @@
             <Pin Id="JFXMjz0kamsOjMqo6Iy4Tv" Name="State Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="CLtrJdJPkB6PesQPh3J7PI" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="GZTiNIkK2qQP068CHqvdbj" Bounds="347,167,306,120" ShowValueBox="true" isIOBox="true" Value="- In MovinSkeleton had to switch arms and legs&#xD;&#xA;- space is reversed in X&#xD;&#xA;- whats the RootBone? should it be 54 or 55 bones?&#xD;&#xA;- world transforms?">
+          <Pad Id="GZTiNIkK2qQP068CHqvdbj" Bounds="347,167,306,83" ShowValueBox="true" isIOBox="true" Value="- In MovinSkeleton had to switch arms and legs&#xD;&#xA;- space is reversed in X&#xD;&#xA;- whats the RootBone? should it be 54 or 55 bones?">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -628,6 +627,15 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="63,330,68,19" Id="SMouAcCa3S5PIkovwE0Ybc">
+            <p:NodeReference LastCategoryFullName="Skeleton" LastDependency="VL.Skeleton.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="WorldJoints" />
+            </p:NodeReference>
+            <Pin Id="IJ6o00HYClbOec0EvdTHle" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LUhDuX3z2F6OszIOvaM00x" Name="Skeleton" Kind="InputPin" />
+            <Pin Id="SXpsDzksbfYOW6mvqdLKCN" Name="World Transformations" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="AATcTcpprZHOW1yk32lDRs" Name="Create" />
         <Patch Id="EGGMvGuJOGGQNa4A6X5TZj" Name="Update" />
@@ -658,16 +666,17 @@
         <Link Id="FjGnPU325glLpGItSPedPh" Ids="VVYyQTEi6zuMRHdZSgBUE2,J0zVILpm5kyMGBO5yxrYZy" />
         <Link Id="LvXf8Lk339DLhlZZbTdlrQ" Ids="JIPlXi2mOP9Ljbbwa4ow8A,VVYyQTEi6zuMRHdZSgBUE2" />
         <Link Id="GZrs0bHf5y3Nd9Q1Cndzot" Ids="B1pBI0rAuUENzxhYnD9rXq,OXdhxaJ9af4NGNXLZRybj4" />
-        <Link Id="Mg5FOiC4YPfOFAOC7fT3Ag" Ids="Q98djIGOhv0PnqY8ZKuCqF,IhzBosTEi8pOWIuM4eKJSL" />
         <Link Id="AykjlMM2OHLOCZf46V3XtO" Ids="IKmCRREL6ePLAA5WZjnvUx,CEkTL2bjibWM3xTUTFk9o7" />
         <Link Id="AyJHndpt6v9NtCnc3gjWc4" Ids="Q1kckYvcfweLcso0tBGhCV,LP0tDwTsBydNMsfaFEi6fH" />
         <Link Id="PP8BJkpvCpBM9ApWBZP48M" Ids="JAwM9TxnzPhMJ9HPrwawAy,RC0zPJswHDKObNyUMrVvZy" />
         <Link Id="UDtqFfnlZReLMnyjIjnjhs" Ids="ARRMIUCoSwFLp3U5lHLEQ7,UfUJt3gwMLLNs1ZO6wTJlX" />
         <Link Id="CoxM0yMrKxVLfnJBdm494d" Ids="CLtrJdJPkB6PesQPh3J7PI,Dat2VGQPaT4MbN1jhTb0oe" />
+        <Link Id="DcjnmTr8H0rOwLkSUIq91K" Ids="B1pBI0rAuUENzxhYnD9rXq,LUhDuX3z2F6OszIOvaM00x" />
+        <Link Id="QJy80z7HvrKP085ayqSKzO" Ids="SXpsDzksbfYOW6mvqdLKCN,IhzBosTEi8pOWIuM4eKJSL" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" />
+  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" Version="2025.7.4" />
   <NugetDependency Id="RHiUkwi4RK0Mi2eDNR2DIH" Location="VL.Skeleton" />
   <NugetDependency Id="Kf0m9GeGZXhO4Y60mcj2tI" Location="VL.MOVIN" />
 </Document>
