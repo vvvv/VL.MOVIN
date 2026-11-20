@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="P95eQgaX43tP7kIdu48Zk7" LanguageVersion="2025.7.4" Version="0.128">
-  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" Version="2025.7.4" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="P95eQgaX43tP7kIdu48Zk7" LanguageVersion="2026.8.0-0362-gabf8be82c6" Version="0.128">
+  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" />
   <Patch Id="KnTMpqqO0NkQKt1t7D1Xdz">
     <Canvas Id="GuU6CuCTviGMeN2GpWm5xa" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="P9pDMkZHtylPJIIdxp01QV">
         <Canvas Id="TY3oNgGkTCDOzkauwEojNI" CanvasType="Group">
-          <Pad Id="O5ALGxptgkLN8gQfMUaYZl" Comment="Reload" Bounds="770,250,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+          <Pad Id="O5ALGxptgkLN8gQfMUaYZl" Comment="Reload" Bounds="765,250,35,35" ShowValueBox="true" isIOBox="true" Value="false">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -28,7 +28,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="1155.3334, 52.666668, 750.6667, 470.66666" IsHidden="true" />
+            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="1731, 65, 750, 470" IsHidden="true" />
             <Pin Id="O48Q68C6YjgNbc0oYLGDWW" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="FeLXm9CAzYnLJmznql8nCt" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="OtSoNGwARSrMy034NqILBB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -124,7 +124,7 @@
             <Pin Id="CKP0zuE2ITAMglyWveANfb" Name="Joint Names" Kind="OutputPin" />
             <Pin Id="HrJOxyHW18rNBQ3yhWItvO" Name="Is Listening" Kind="OutputPin" />
           </Node>
-          <Pad Id="SiWZIpQkDxZOosB1fO9yxS" Comment="Merge Meshes" Bounds="749,200,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="SiWZIpQkDxZOosB1fO9yxS" Comment="Merge Meshes" Bounds="745,200,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -231,22 +231,6 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="683,290,90,19" Id="IeBan4qQuCvQOX9VLO2Bm1">
-            <p:NodeReference LastCategoryFullName="Stride.Assets" LastDependency="VL.Stride.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="FileModel" />
-            </p:NodeReference>
-            <Pin Id="KAONSDXXbOiO1Y4gaVzWjq" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="MNhBF5ohaHTQFTvvSoEG4g" Name="Path" Kind="InputPin" DefaultValue="..\..\..\sandbox\Avateering\Kinect_ready_Figure.blend" />
-            <Pin Id="LIug7RnSkl8MVqIVFqPtdl" Name="Import Scale" Kind="InputPin" />
-            <Pin Id="JzUFplaCPFnMUv5FY8qe1F" Name="Pivot Position" Kind="InputPin" />
-            <Pin Id="PKuZFIt9tktLsGP3TN6j0Q" Name="Merge Meshes" Kind="InputPin" DefaultValue="False" />
-            <Pin Id="OGsGI7wSBZrP0q0PD7zczm" Name="Reload" Kind="InputPin" />
-            <Pin Id="QMebMvb2ghkM2TYFAMvCOr" Name="Model" Kind="OutputPin" />
-            <Pin Id="REhaRulCTh7QSGqWgitnAJ" Name="Is Loading" Kind="OutputPin" />
-            <Pin Id="FTOjIVtr1ElNZhWDcwmtIL" Name="Already Loaded" Kind="OutputPin" />
-            <Pin Id="BHyKTr5aKYxOqMaZL4pTh6" Name="Url" Kind="OutputPin" IsHidden="true" />
-          </Node>
           <Node Bounds="663,330,145,19" Id="VGKiDHYLGuBQJg0DkzoI0x">
             <p:NodeReference LastCategoryFullName="Stride.Models" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -264,12 +248,6 @@
             <Pin Id="PEYqXTdRaVfMZEVwZriCfU" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="VyclhjKoNqiOU0vvQ38ht5" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="NKGWb2yrIFrMpafe0PDT2w" Comment="Joint Names" Bounds="166,290,122,95" ShowValueBox="true" isIOBox="true">
-            <p:ValueBoxSettings>
-              <p:maxvisibleentries p:Type="Int32">5</p:maxvisibleentries>
-              <p:showentryindex p:Type="Boolean">true</p:showentryindex>
-            </p:ValueBoxSettings>
-          </Pad>
           <Pad Id="PHH0pIyDgCLLPi4zqSF1dF" Bounds="1134,291,356,42" ShowValueBox="true" isIOBox="true" Value="In order to load materials/textures with a model, you need to import it as a Model Asset in the Stride editor first:">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -352,7 +330,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="457,520,69,19" Id="GRVVutwS7zqMsqQgMUYnqL">
+          <Node Bounds="503,650,69,19" Id="GRVVutwS7zqMsqQgMUYnqL">
             <p:NodeReference LastCategoryFullName="Skeleton" LastDependency="VL.Skeleton.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ModelJoints" />
@@ -361,95 +339,7 @@
             <Pin Id="BzhgLcLWZbbOfsLpzLH0QO" Name="Input" Kind="InputPin" />
             <Pin Id="ORjh056Z32bLVCyigBJXNa" Name="Names" Kind="OutputPin" />
           </Node>
-          <Pad Id="GxWu8OBBansMiDxqDChQ7M" Comment="Model Joint Names" Bounds="459,561,128,325" ShowValueBox="true" isIOBox="true">
-            <p:ValueBoxSettings>
-              <p:maxvisibleentries p:Type="Int32">20</p:maxvisibleentries>
-            </p:ValueBoxSettings>
-            <p:Value>
-              <Item>Armature</Item>
-              <Item>defaultRemesh_02</Item>
-              <Item>Head</Item>
-              <Item>HeadTop_End</Item>
-              <Item>HeadTop_End_end</Item>
-              <Item>Hips</Item>
-              <Item>LeftArm</Item>
-              <Item>LeftFoot</Item>
-              <Item>LeftForeArm</Item>
-              <Item>LeftHand</Item>
-              <Item>LeftHandIndex1</Item>
-              <Item>LeftHandIndex2</Item>
-              <Item>LeftHandIndex3</Item>
-              <Item>LeftHandIndex4</Item>
-              <Item>LeftHandIndex4_end</Item>
-              <Item>LeftHandMiddle1</Item>
-              <Item>LeftHandMiddle2</Item>
-              <Item>LeftHandMiddle3</Item>
-              <Item>LeftHandMiddle4</Item>
-              <Item>LeftHandMiddle4_end</Item>
-              <Item>LeftHandPinky1</Item>
-              <Item>LeftHandPinky2</Item>
-              <Item>LeftHandPinky3</Item>
-              <Item>LeftHandPinky4</Item>
-              <Item>LeftHandPinky4_end</Item>
-              <Item>LeftHandRing1</Item>
-              <Item>LeftHandRing2</Item>
-              <Item>LeftHandRing3</Item>
-              <Item>LeftHandRing4</Item>
-              <Item>LeftHandRing4_end</Item>
-              <Item>LeftHandThumb1</Item>
-              <Item>LeftHandThumb2</Item>
-              <Item>LeftHandThumb3</Item>
-              <Item>LeftHandThumb4</Item>
-              <Item>LeftHandThumb4_end</Item>
-              <Item>LeftLeg</Item>
-              <Item>LeftShoulder</Item>
-              <Item>LeftToe_End</Item>
-              <Item>LeftToe_End_end</Item>
-              <Item>LeftToeBase</Item>
-              <Item>LeftUpLeg</Item>
-              <Item>Neck</Item>
-              <Item>RightArm</Item>
-              <Item>RightFoot</Item>
-              <Item>RightForeArm</Item>
-              <Item>RightHand</Item>
-              <Item>RightHandIndex1</Item>
-              <Item>RightHandIndex2</Item>
-              <Item>RightHandIndex3</Item>
-              <Item>RightHandIndex4</Item>
-              <Item>RightHandIndex4_end</Item>
-              <Item>RightHandMiddle1</Item>
-              <Item>RightHandMiddle2</Item>
-              <Item>RightHandMiddle3</Item>
-              <Item>RightHandMiddle4</Item>
-              <Item>RightHandMiddle4_end</Item>
-              <Item>RightHandPinky1</Item>
-              <Item>RightHandPinky2</Item>
-              <Item>RightHandPinky3</Item>
-              <Item>RightHandPinky4</Item>
-              <Item>RightHandPinky4_end</Item>
-              <Item>RightHandRing1</Item>
-              <Item>RightHandRing2</Item>
-              <Item>RightHandRing3</Item>
-              <Item>RightHandRing4</Item>
-              <Item>RightHandRing4_end</Item>
-              <Item>RightHandThumb1</Item>
-              <Item>RightHandThumb2</Item>
-              <Item>RightHandThumb3</Item>
-              <Item>RightHandThumb4</Item>
-              <Item>RightHandThumb4_end</Item>
-              <Item>RightLeg</Item>
-              <Item>RightShoulder</Item>
-              <Item>RightToe_End</Item>
-              <Item>RightToe_End_end</Item>
-              <Item>RightToeBase</Item>
-              <Item>RightUpLeg</Item>
-              <Item>RootNode</Item>
-              <Item>Spine</Item>
-              <Item>Spine1</Item>
-              <Item>Spine2</Item>
-            </p:Value>
-          </Pad>
-          <Pad Id="GcQWPJCllpqO9SAO2ki66a" Bounds="785,216,162,22" ShowValueBox="true" isIOBox="true" Value="⚠️ Don't merge meshes!">
+          <Pad Id="GcQWPJCllpqO9SAO2ki66a" Bounds="781,216,162,22" ShowValueBox="true" isIOBox="true" Value="⚠️ Don't merge meshes!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -458,7 +348,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="208,440,90,19" Id="VxvY7xpqRyCMCj3dvOhArB">
+          <Node Bounds="208,250,90,19" Id="VxvY7xpqRyCMCj3dvOhArB">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Avateer a rigged mesh.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="Movin2Mixamo" />
@@ -481,7 +371,7 @@
             <Pin Id="GkJTWseD42PNMItEl0bx6S" Name="Components" Kind="InputPin" />
             <Pin Id="Faiq8Ly1UgjN1ZlUgE748A" Name="Children" Kind="InputPin" />
             <Pin Id="HKqRg8vOF4rPDtmnLMxwGX" Name="Name" Kind="InputPin" />
-            <Pin Id="S2ygrsjkgexPOkMNSPvssV" Name="Enabled" Kind="InputPin" DefaultValue="True" />
+            <Pin Id="S2ygrsjkgexPOkMNSPvssV" Name="Enabled" Kind="InputPin" DefaultValue="False" />
             <Pin Id="K1shnYPFQEILhiFMbce2Sl" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="HhH4EoS5qaBMkszs1RDArY" Name="Entity" Kind="OutputPin" />
           </Node>
@@ -618,7 +508,7 @@
             <Pin Id="JFXMjz0kamsOjMqo6Iy4Tv" Name="State Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="CLtrJdJPkB6PesQPh3J7PI" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="GZTiNIkK2qQP068CHqvdbj" Bounds="347,167,306,83" ShowValueBox="true" isIOBox="true" Value="- In MovinSkeleton had to switch arms and legs&#xD;&#xA;- space is reversed in X&#xD;&#xA;- whats the RootBone? should it be 54 or 55 bones?">
+          <Pad Id="GZTiNIkK2qQP068CHqvdbj" Bounds="347,167,309,186" ShowValueBox="true" isIOBox="true" Value="- In MovinSkeleton had to switch arms and legs &#xD;&#xA;    - left and right are mixedup for some reason.&#xD;&#xA;&#xD;&#xA;- space is reversed in X&#xD;&#xA;    - not sure, need better sample where the hole body moves in spase.&#xD;&#xA;&#xD;&#xA;- whats the RootBone? should it be 54 or 55 bones?&#xD;&#xA;    - RootBone can be iglored in our case. 54 it is.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -627,7 +517,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="63,330,68,19" Id="SMouAcCa3S5PIkovwE0Ybc">
+          <Node Bounds="111,520,68,19" Id="SMouAcCa3S5PIkovwE0Ybc">
             <p:NodeReference LastCategoryFullName="Skeleton" LastDependency="VL.Skeleton.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="WorldJoints" />
@@ -636,6 +526,30 @@
             <Pin Id="LUhDuX3z2F6OszIOvaM00x" Name="Skeleton" Kind="InputPin" />
             <Pin Id="SXpsDzksbfYOW6mvqdLKCN" Name="World Transformations" Kind="OutputPin" />
           </Node>
+          <Node Bounds="683,290,85,19" Id="FoH9a4K9R7DMBF8glR0caY">
+            <p:NodeReference LastCategoryFullName="Stride.Models" LastDependency="VL.Stride.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ModelReader" />
+            </p:NodeReference>
+            <Pin Id="THONS5ncd3RLn8mVk1HKZc" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QdWjQvVcqjPQLFowxQWC7E" Name="Path" Kind="InputPin" />
+            <Pin Id="Vxq7HYR2dE7LM8kzVdpQ0R" Name="Import Scale" Kind="InputPin" />
+            <Pin Id="RtUgeLRublmN9Eb9wLnYcU" Name="Pivot Position" Kind="InputPin" />
+            <Pin Id="SO1XjkYhoOLMUqqILGqzWa" Name="Merge Meshes" Kind="InputPin" />
+            <Pin Id="TS4afDm3HRLNx4VyUPxDNe" Name="Reload" Kind="InputPin" />
+            <Pin Id="E6zcoV5a5iANvb8tZ4TFP4" Name="Model" Kind="OutputPin" />
+          </Node>
+          <Pad Id="APuddawRUlJQI4NsnHMD8t" Bounds="816,300,97,19" ShowValueBox="true" isIOBox="true" Value="&lt;&lt; this is new.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="TxeRjjiiyvoQT5cjIAunJb" Comment="Names" Bounds="505,701,108,95" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="NoCIflRF97IO1L9m63lbj4" Comment="Joint Names" Bounds="22,281,55,95" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="AATcTcpprZHOW1yk32lDRs" Name="Create" />
         <Patch Id="EGGMvGuJOGGQNa4A6X5TZj" Name="Update" />
@@ -644,21 +558,13 @@
           <Fragment Id="PRjYWXA1AJhPpyMcV86RzU" Patch="EGGMvGuJOGGQNa4A6X5TZj" Enabled="true" />
         </ProcessDefinition>
         <Link Id="JScemo8v0TOL0nME92nLBw" Ids="QVJeuFQcMtqPGPoS2mCkpK,HYsXE2LdQawOLqV8fqAkLL" />
-        <Link Id="BJGfVedWNlCMtdvZXCNfok" Ids="O5ALGxptgkLN8gQfMUaYZl,OGsGI7wSBZrP0q0PD7zczm" />
-        <Link Id="KHgx5JopONNObBVmiHtgK9" Ids="SiWZIpQkDxZOosB1fO9yxS,PKuZFIt9tktLsGP3TN6j0Q" />
-        <Link Id="EdiL9mE71UsL8rIxZhQ6AU" Ids="VhGQ41iNk0NPkB9oNNY2MA,MNhBF5ohaHTQFTvvSoEG4g" />
         <Link Id="AFUixFKr63pOyAGPRRREjx" Ids="K7IItm753QcQXhT4YaFzHb,OpPl66xg7z1LUNTlE8vqz3" />
         <Link Id="J2D9u2IdlgVPYlFUw78AIl" Ids="APd50ni8jQCP3yN29Eg4GS,B76NawSgzBfL9JH97eq5sa" />
         <Link Id="HMDUWP6902TPLKQMXr0w56" Ids="JSuzEVPipYML5mg9KYd5jG,QUvF0YlVQYIMTaCkwaYglR" />
         <Link Id="EQiaOJeiAlkNtqFjwK4bvh" Ids="MX1pCGXKGDROrPIDFv5PeL,PZymr4KzkxXN24zGKXjnS6" />
-        <Link Id="Cw16ciSLUSUP4vvLKcwoRb" Ids="QMebMvb2ghkM2TYFAMvCOr,CvmJqAPZOktMNu4GT7BKUz" />
-        <Link Id="GZDu69LQn0CPavaGti7Ttk" Ids="VyclhjKoNqiOU0vvQ38ht5,CSn91zjq6RJP4JFqLVIvjx" />
         <Link Id="AaXGTpLWT3EQGbUKL7Xux8" Ids="VyclhjKoNqiOU0vvQ38ht5,BzhgLcLWZbbOfsLpzLH0QO" />
-        <Link Id="DlhSLmCssP8QDNXdXk2P6D" Ids="ORjh056Z32bLVCyigBJXNa,GxWu8OBBansMiDxqDChQ7M" />
         <Link Id="Bdd2tzvetbtM9qVKs8prVp" Ids="VyclhjKoNqiOU0vvQ38ht5,UuGgG60tBZkOuiMpxFhd3c" />
         <Link Id="JPHrQOq0lMPQOhtqNF9ZEV" Ids="U8PgwwoH32IOWKpAuIfR5q,SvXR5JeUetRPQ0nlJbeEFH" />
-        <Link Id="KFOBdVjZS3gPh7EjODYxbO" Ids="VL5y7CQ16fIOwmtyTpwVrI,F0iGTNIM3yMN0ynFTM2o8l" />
-        <Link Id="VwqfUNwt0ITMfxYfdGxgHI" Ids="CKP0zuE2ITAMglyWveANfb,NKGWb2yrIFrMpafe0PDT2w" />
         <Link Id="DzPXzgFJe8ALq1kilT5R4d" Ids="MkW82eH1nt3M3iCwj8iPqd,GkJTWseD42PNMItEl0bx6S" />
         <Link Id="C6fdMhQyLiPPPxXjLCkeOC" Ids="MtJBI7Tg3ImQOa9vMgQuHI,AZOsoBw2xN1MuqYhRw3xat" />
         <Link Id="EJMl50DelZgPZNCTtQ5AQy" Ids="HhH4EoS5qaBMkszs1RDArY,AjFQTpq7puaLGgwsqcLLVf" />
@@ -673,10 +579,18 @@
         <Link Id="CoxM0yMrKxVLfnJBdm494d" Ids="CLtrJdJPkB6PesQPh3J7PI,Dat2VGQPaT4MbN1jhTb0oe" />
         <Link Id="DcjnmTr8H0rOwLkSUIq91K" Ids="B1pBI0rAuUENzxhYnD9rXq,LUhDuX3z2F6OszIOvaM00x" />
         <Link Id="QJy80z7HvrKP085ayqSKzO" Ids="SXpsDzksbfYOW6mvqdLKCN,IhzBosTEi8pOWIuM4eKJSL" />
+        <Link Id="QINvB83u06zLtJc537xkI1" Ids="VyclhjKoNqiOU0vvQ38ht5,CSn91zjq6RJP4JFqLVIvjx" />
+        <Link Id="Pw9skXYaTExMM37GUNJo2q" Ids="VhGQ41iNk0NPkB9oNNY2MA,QdWjQvVcqjPQLFowxQWC7E" />
+        <Link Id="IvZi1oZlcRONzmTTeuFbvb" Ids="SiWZIpQkDxZOosB1fO9yxS,SO1XjkYhoOLMUqqILGqzWa" />
+        <Link Id="Lt9s1mjlttkOepkFGEAcPm" Ids="O5ALGxptgkLN8gQfMUaYZl,TS4afDm3HRLNx4VyUPxDNe" />
+        <Link Id="IncqQKqzZhkOdKeYZDki8X" Ids="E6zcoV5a5iANvb8tZ4TFP4,CvmJqAPZOktMNu4GT7BKUz" />
+        <Link Id="OBJg9pW7ZuZLj7OUP8gGbx" Ids="VL5y7CQ16fIOwmtyTpwVrI,F0iGTNIM3yMN0ynFTM2o8l" />
+        <Link Id="UioOOAg8jEqOKYRj0SYMEH" Ids="ORjh056Z32bLVCyigBJXNa,TxeRjjiiyvoQT5cjIAunJb" />
+        <Link Id="Sd9GAFQw00GLDTiLG0xPE6" Ids="CKP0zuE2ITAMglyWveANfb,NoCIflRF97IO1L9m63lbj4" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" Version="2025.7.4" />
+  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" />
   <NugetDependency Id="RHiUkwi4RK0Mi2eDNR2DIH" Location="VL.Skeleton" />
   <NugetDependency Id="Kf0m9GeGZXhO4Y60mcj2tI" Location="VL.MOVIN" />
 </Document>
