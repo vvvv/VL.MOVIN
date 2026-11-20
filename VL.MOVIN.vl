@@ -916,8 +916,8 @@
                 <Link Id="FgaeqI8QR65PB10y3GFErK" Ids="VoMw2QTLGojQDt1ZJwKwga,ITprTXlSi4IMDqNWbXuWct" />
               </Patch>
             </Node>
-            <Pad Id="JUSP5vWkNg0NYv15M6XlGT" SlotId="GxttOLpvQFXPwPStdHENsw" Bounds="542,446" />
-            <Node Bounds="537,400,81,26" Id="O171QD7eb5yQY4C8dXFS39">
+            <Pad Id="JUSP5vWkNg0NYv15M6XlGT" SlotId="GxttOLpvQFXPwPStdHENsw" Bounds="553,391" />
+            <Node Bounds="551,330,81,26" Id="O171QD7eb5yQY4C8dXFS39">
               <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableDictionary" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="MutableDictionary" NeedsToBeDirectParent="true" />
@@ -3054,6 +3054,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="GR0xNLlemtDPJ5Kdxwv1mo" Location="VL.Skeleton" Version="0.0.5" />
+  <NugetDependency Id="GR0xNLlemtDPJ5Kdxwv1mo" Location="VL.Skeleton" Version="0.0.7" />
   <NugetDependency Id="GCUKZT0AtSVM6BxHe4LuT1" Location="VL.IO.OSC" Version="2.0.10" />
 </Document>
