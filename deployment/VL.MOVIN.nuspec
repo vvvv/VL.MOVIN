@@ -13,8 +13,8 @@
     <tags>VL, skeleton, fingers, hand, tracking</tags>
     <license type="expression">LGPL-3.0-only</license>
     <dependencies>
-      <dependency id="VL.Skeleton" version="0.0.5" />
-      <dependency id="VL.IO.OSC" version="2.0.10" />
+      <dependency id="VL.Skeleton" version="0.0.7" />
+      <dependency id="VL.IO.OSC" version="2.0.12" />
     </dependencies>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>

@@ -22,7 +22,7 @@
               <Pin Id="AwSVVHk7CpOLvtXYe4FsNl" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="K8vyXs4m9XtPMfCUuIqUJk" Name="Listening IP" Kind="InputPin" />
               <Pin Id="UlOHo7pnMGtNWfEEg21EUV" Name="Port" Kind="InputPin" />
-              <Pin Id="PiyjOdYlbM3PmflaZovSGp" Name="Enable Data Preview" Kind="InputPin" DefaultValue="True" />
+              <Pin Id="PiyjOdYlbM3PmflaZovSGp" Name="Enable Data Preview" Kind="InputPin" DefaultValue="False" />
               <Pin Id="MJitNHrW5KXLiLsnt7IzCP" Name="Sort Data Preview" Kind="InputPin" />
               <Pin Id="CuQxVeWh1puNDgnwL3tRtt" Name="Reset Data Preview" Kind="InputPin" DefaultValue="False" />
               <Pin Id="MQfz98mEvdNLNsnRStozId" Name="Enabled" Kind="InputPin" />
@@ -526,15 +526,6 @@
             <Pad Id="FvWUf4IEy3JQYTxWlTJxZ7" Bounds="378,1340" />
             <Pad Id="Km1OGAFrqyFNisA1xLfWD0" Bounds="159,1090" />
             <Pad Id="JT2omOJjenePHZQHbQqLFC" Bounds="386,1040" />
-            <Pad Id="OXMsrOlu2vqOL7qwrutZJr" Comment="Data Preview" Bounds="500,180,370,54" ShowValueBox="true" isIOBox="true">
-              <p:Value>
-                <Item>
-                  <Item>/MOVIN/Frame</Item>
-                  <Item>ssiiiiiiisffffffffffffffiisffffffffffffffiisffffffffffffffiisffffffffffffffiisffffffffffffffiisffffffffffffffiisffffffffffffffiisffffffffffffffiisffffffffffffffiisffffffffffffffiisffffffffffffff</Item>
-                  <Item>0.0 s</Item>
-                </Item>
-              </p:Value>
-            </Pad>
             <Pad Id="EFTwMk37Fp0N7jgls9f5nm" Bounds="-367,427,453,204" ShowValueBox="true" isIOBox="true" Value="timestamp    String    Timestamp identifying the motion frame&#xD;&#xA;2    actor_name    String    Name/ID of the tracked actor&#xD;&#xA;3    frame_index    Integer    Sequential frame number&#xD;&#xA;4    number_of_chunks    Integer    Number of packets used to transmit this frame&#xD;&#xA;5    chunk_index    Integer    Index of this particular packet&#xD;&#xA;6    total_bone_count    Integer    Total number of bones in the skeleton&#xD;&#xA;7    bones_in_this_chunk    Integer    Number of bones contained in this packet">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -1167,7 +1158,6 @@
           <Link Id="GWi80ypsN2SLC3cyEb0okK" Ids="FvWUf4IEy3JQYTxWlTJxZ7,HU6sqIZbDMdMyokg8BN2q8" />
           <Link Id="KXRtqUBBtc8OnmoDnzHS16" Ids="Km1OGAFrqyFNisA1xLfWD0,VD35NVyYnROQRlxypQ0YEL" />
           <Link Id="Pdp7Kojd86LLaAwWwBCGvI" Ids="JT2omOJjenePHZQHbQqLFC,PEgJOfPl3nQN5UZ8mLwbsr" />
-          <Link Id="KSnB1uK4r4wNNiKWIE1jb7" Ids="QSKSfhMaplWPyEnJjoOUfG,OXMsrOlu2vqOL7qwrutZJr" />
           <Link Id="Kftoy5UDzk0NrhkkPwg1uj" Ids="T0fXrVaawMtOn9gL7MQ0Mc,VFTCEWbBOuCPyDKTOoKsQ3" />
           <Link Id="MxYnQz9GBa2PE3PlsbBmJa" Ids="A3TneYeGcuDQYbcPOm4Lr6,QfGkpz6ed2uOTpffMDE2a1" />
           <Slot Id="GxttOLpvQFXPwPStdHENsw" Name="Bodies">
@@ -2506,7 +2496,7 @@
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="CEV3yfJMGkkP5hd1m2CSSo" Bounds="976,589,162,19" ShowValueBox="true" isIOBox="true" Value="left and right are mixedup">
+            <Pad Id="CEV3yfJMGkkP5hd1m2CSSo" Bounds="976,589,171,21" ShowValueBox="true" isIOBox="true" Value="left and right are mixed up">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -2688,7 +2678,7 @@
         </p:NodeReference>
         <Patch Id="IbUaX3BTdGMNettAmVq093">
           <Canvas Id="MoirvjrDqdhPXLxsNmPiDK" CanvasType="Group">
-            <ControlPoint Id="EklPG12yfniM15BdbVosVS" Bounds="409,500" />
+            <ControlPoint Id="EklPG12yfniM15BdbVosVS" Bounds="439,351" />
             <Pad Id="SgMewCmYUKrN5n6KoEORHP" Comment="" Bounds="480,241,108,847" ShowValueBox="true" isIOBox="true">
               <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
@@ -3055,5 +3045,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="GR0xNLlemtDPJ5Kdxwv1mo" Location="VL.Skeleton" Version="0.0.7" />
-  <NugetDependency Id="GCUKZT0AtSVM6BxHe4LuT1" Location="VL.IO.OSC" Version="2.0.10" />
+  <NugetDependency Id="GCUKZT0AtSVM6BxHe4LuT1" Location="VL.IO.OSC" Version="2.0.12" />
 </Document>
