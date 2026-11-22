@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Pack>
-
-<!-- For more info see: -->
-<!-- https://thegraybook.vvvv.org/reference/extending/providing-help.html -->
-
+	<Topic title="Basics">
+		<VLDocument link="HowTo Avateer a single rigged mesh.vl" tags="tracking, skeleton, fingers, hand"/>
+	</Topic>
+	<Topic title="Links">
+		<UriItem title="Reference MOVIN Website" link="https://www.movin3d.com/" mediaType="text"/>
+	</Topic>
 </Pack>
